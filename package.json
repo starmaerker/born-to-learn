@@ -1,0 +1,19 @@
+{
+  "name": "born-to-learn",
+  "version": "1.0.0",
+  "description": "my learning journey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starmaerker/born-to-learn.git"
+  },
+  "author": "Andreas Gropp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starmaerker/born-to-learn/issues"
+  },
+  "homepage": "https://github.com/starmaerker/born-to-learn#readme"
+}
