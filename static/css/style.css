@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: lightseagreen;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.error-page {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calendar-equal {
+  height: 50vh;
+  overflow: hidden;
+}
+
+/* HOME PAGE */
+.card-calendar {
+  overflow: auto;
+  height: 100%;
+  border: 0;
+}
+
+.homeheader {
+  padding: 30px 30px 30px 30px;
+  background: #5c6670;
+  color: floralwhite;
+  height: 50vh;
+  border-radius: 0.25rem;
+}
+
+.easy {
+  transition: all 0.3s ease;
+}
+
+.easy:hover {
+  transform: scale(1.1);
+  border: 1px solid gray;
+}
+
+#mapid {
+  margin: auto;
+  width: 60%;
+  height: 320px; }
