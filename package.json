@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/starmaerker/born-to-learn#readme",
   "dependencies": {
-    "jest": "^23.6.0"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "jest": "^23.6.0",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
   }
 }
