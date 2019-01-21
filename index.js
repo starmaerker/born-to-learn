@@ -21,4 +21,15 @@ app.use((req, res) => {
   res.status(404).render("error");
 });
 
-app.listen(port);
+app.listen(port, () => {
+  if (app.get("env") === "development") {
+    const browserSync = require("browser-sync"); // eslint-disable-line
+    browserSync({
+      files: ["static/**/*.css", "views/**/*.handlebars"],
+      online: false,
+      port: port + 1,
+      proxy: `localhost:${port}`,
+      ui: false
+    });
+  }
+});
